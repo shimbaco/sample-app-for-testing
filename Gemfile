@@ -36,3 +36,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'capybara'
+gem 'database_cleaner'
+gem 'factory_girl_rails'
+gem 'rspec-rails'
