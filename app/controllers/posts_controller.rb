@@ -1,8 +1,11 @@
+# coding: utf-8
+
 class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
     @posts = Post.all
+    # @posts.map { |post| post.title = 'こんにちは' } # わざとテストを失敗させる
 
     respond_to do |format|
       format.html # index.html.erb

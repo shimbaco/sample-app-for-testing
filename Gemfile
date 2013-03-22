@@ -38,6 +38,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'capybara'
+gem 'capybara-screenshot'
 gem 'database_cleaner'
 gem 'factory_girl_rails'
 gem 'rspec-rails'

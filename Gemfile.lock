@@ -37,6 +37,8 @@ GEM
       rack-test (>= 0.5.4)
       selenium-webdriver (~> 2.0)
       xpath (~> 1.0.0)
+    capybara-screenshot (0.3.4)
+      capybara (>= 1.0, < 3)
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
     coffee-rails (3.2.2)
@@ -143,6 +145,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  capybara-screenshot
   coffee-rails (~> 3.2.1)
   database_cleaner
   factory_girl_rails
